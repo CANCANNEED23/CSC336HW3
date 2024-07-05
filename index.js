@@ -6,7 +6,7 @@ app.use(express.json())
 let notes = [
   {
     id: 0,
-    content: "use postman to add and delete notes, 'api/notes/id' to see note by id, /api/notes to post only need to add content and importance, ",
+    content: "use postman to add and delete notes, for delete also use api/notes/id., 'api/notes/id' to see note by id, /api/notes to post only need to add content and importance, ",
     important: true
   },
   {
